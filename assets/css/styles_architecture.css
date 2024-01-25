@@ -1,10 +1,10 @@
 /* CSS Document */
 body {
-  font: normal 90% «Trebuchet MS», Verdana, »Lucida Grande», Tahoma,
+  font: normal 90% "Trebuchet MS", Verdana, "Lucida Grande", Tahoma,
     Arial, Helvetica, Sans-Serif;
   color: #444;
   background: #f4f4f4;
-  padding: 0 0 2em 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -142,6 +142,7 @@ figure {
   margin: 0 1.5em 1.5em 0;
 }
 
+
 figcaption {
   text-align: center;
   font: italic 0.9em Georgia, «Times New Roman», Times, serif;
@@ -150,7 +151,6 @@ figcaption {
 /*Footer*/
 footer {
   clear: both;
-  margin-left: 20px;
   font-size: 10px;
   background: #f2f2f2 url(../images/footer_background.jpg) no-repeat left;
   height: 118px;
